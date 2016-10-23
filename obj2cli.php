@@ -13,7 +13,7 @@ function obj2cli($object){
 		$params = [];
 		foreach($reflect->getParameters() as $param){
 			if(!$param->isOptional()){
-				$params[] = $param->getName();
+				$params[] = '<'.$param->getName().'>';
 			} else {
 				$params[] = '['.$param->getName().' = '.$param->getDefaultValue().']';
 			}
