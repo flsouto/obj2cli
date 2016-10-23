@@ -81,7 +81,7 @@ function obj2cli($object){
 				printf("Parameter %d to '$func' is mandatory. Use '$func --help' for more usage info. \n", $param->getPosition()+1);
 				continue 2;
 			}
-			$reargs[] = $arg=='__UNDEFINED__' ? $param->getDefaultVaue() : $arg;
+			$reargs[] = $arg=='__UNDEFINED__' ? $param->getDefaultValue() : $arg;
 		}
 
 		ob_start();
