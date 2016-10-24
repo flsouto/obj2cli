@@ -9,7 +9,7 @@ This library allows you to create an interactive shell application from a plain 
 You can simply download obj2cli.php file to your project's folder or install it via composer:
 
 ```
-composer 
+composer require flsouto/obj2cli
 ``` 
 
 *Notice*: in both cases you will have to include the file manually, since it will not be autoloaded!
