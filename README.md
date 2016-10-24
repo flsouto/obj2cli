@@ -96,7 +96,7 @@ cache.json
 MyApp> ^C
 ```
 
-## Specia Commands
+## Especial Commands
 
 ### help
 
