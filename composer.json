@@ -1,0 +1,13 @@
+{
+    "name": "flsouto/obj2cli",
+    "description": "Create Command Line Interfaces from PHP Objects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fabio Souto",
+            "email": "fabiolimasouto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
